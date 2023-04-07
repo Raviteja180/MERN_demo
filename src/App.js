@@ -12,7 +12,7 @@ function App() {
   }
   return (
     <form onSubmit={handleSubmit}>
-      <label>Name :</label>
+      <label>Name 1234:</label>
       <input type="text"  onChange={(e)=>setName(e.target.value)}/>
       <label>Passoword</label>
       <input type="text" onChange={(e)=>setPassword(e.target.value)}/>
